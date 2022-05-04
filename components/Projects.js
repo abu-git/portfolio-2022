@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 function Projects() {
   return (
-    <div className='container mt-10 mx-auto'>
-        <h2 className='font-thin text-center text-3xl text-cyan-500'>Projects <span className='text-orange-500 font-serif'>#</span></h2>
-        <section className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5'>
-            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
+    <div className='container mt-12 mx-auto'>
+        <h2 className='font-thin text-center text-3xl text-cyan-500 mb-7'>Projects <span className='text-orange-500 font-serif'>#</span></h2>
+        <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5'>
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50 mx-5'>
                 <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
@@ -26,7 +26,7 @@ function Projects() {
             </div>
 
 
-            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'> 
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50 mx-5'> 
                 <Image src="/bbe.jpg" height={533} width={533} alt="bigboyellis" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
@@ -44,7 +44,7 @@ function Projects() {
             </div>
 
 
-            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50 mx-5'>
                 <Image src="/nifty.jpg" height={533} width={533} alt="nifty" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
@@ -60,7 +60,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50 mx-5'>
                 <Image src="/tufcat.jpg" height={533} width={533} alt="nifty" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
