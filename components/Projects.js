@@ -6,7 +6,7 @@ function Projects() {
     <div className='container mt-10 mx-auto'>
         <h2 className='font-thin text-center text-3xl text-cyan-500'>Projects <span className='text-orange-500 font-serif'>#</span></h2>
         <section className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5'>
-            <div className='opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
                 <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
@@ -24,15 +24,15 @@ function Projects() {
                     <svg className='w-7 h-7 fill-slate-500' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vercel</title><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>
                 </div>
             </div>
-            <div className='opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'> 
+
+
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'> 
                 <Image src="/bbe.jpg" height={533} width={533} alt="bigboyellis" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
                     <svg className='w-7 h-7 mr-2 fill-green-400' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Node.js</title><path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/></svg>
 
                     <svg className='w-7 h-7 mr-2 fill-slate-500' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Express</title><path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/></svg>
-            
-            
             
                     <svg className='w-7 h-7 mr-2 fill-amber-800' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Handlebars.js</title><path d="M9.1 4.948a3.45 3.45 0 0 0-.398.014C6.32 5.15 5.373 6.375 4.802 6.9c-.572.525-1.656 1.763-2.376 1.545-.721-.217-.924-1.107-.67-1.381s.454-.225.613 0c.097.18.145.383.14.587a1.36 1.36 0 0 0 .438-.665.792.792 0 0 0-.443-1.017c-1.3-.659-2.139.514-2.26.787-.122.273-.336.707-.2 1.695.135.989.612 1.902 2.104 2.261a6.31 6.31 0 0 0 4.238-.495l4.41-1.84a5.408 5.408 0 0 1 .556-.101v9.864c0 .506.316.913.708.913.391 0 .707-.407.707-.913V8.29a5.408 5.408 0 0 1 .437.088l4.41 1.84a6.31 6.31 0 0 0 4.238.494c1.492-.36 1.969-1.272 2.105-2.26.135-.989-.08-1.423-.2-1.696-.122-.273-.962-1.446-2.261-.787a.792.792 0 0 0-.443 1.017c.076.26.229.492.437.665a1.19 1.19 0 0 1 .141-.587c.159-.225.359-.274.613 0s.051 1.164-.67 1.382c-.72.217-1.804-1.02-2.376-1.546-.571-.525-1.518-1.75-3.9-1.938A3.45 3.45 0 0 0 12 6.653a3.45 3.45 0 0 0-2.9-1.705zm12.39 2.703v.004l.006.002c-.002-.002-.004-.004-.006-.004zm-18.98 0c-.002.002-.004.004-.006.004l.006-.001V7.65z"/></svg>
 
@@ -42,7 +42,9 @@ function Projects() {
                 </div>
                 
             </div>
-            <div className='opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
+
+
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
                 <Image src="/nifty.jpg" height={533} width={533} alt="nifty" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
@@ -54,12 +56,11 @@ function Projects() {
 
                     <svg className='w-7 h-7 mr-2 fill-slate-400' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Material Design</title><path d="M12 0C5.377 0 0 5.377 0 12s5.377 12 12 12 12-5.377 12-12S18.623 0 12 0zm0 .75c2.871 0 5.482 1.082 7.469 2.85H4.53A11.197 11.197 0 0 1 12 .75zm-7.186 3.6h14.372L12 18.723 4.814 4.35zM3.6 4.53V19.47A11.197 11.197 0 0 1 .75 12c0-2.87 1.082-5.481 2.85-7.468zm16.8 0A11.197 11.197 0 0 1 23.25 12c0 2.871-1.082 5.482-2.85 7.469V4.53zM4.35 5.1l7.275 14.55H4.35V5.1zm15.3 0v14.55h-7.275L19.651 5.1zM4.533 20.4H19.469A11.197 11.197 0 0 1 12 23.25a11.197 11.197 0 0 1-7.468-2.85z"/></svg>
 
-
                     <svg className='w-7 h-7 fill-indigo-400' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Heroku</title><path d="M20.61 0H3.39C2.189 0 1.23.96 1.23 2.16v19.681c0 1.198.959 2.159 2.16 2.159h17.22c1.2 0 2.159-.961 2.159-2.159V2.16C22.77.96 21.811 0 20.61 0zm.96 21.841c0 .539-.421.96-.96.96H3.39c-.54 0-.96-.421-.96-.96V2.16c0-.54.42-.961.96-.961h17.22c.539 0 .96.421.96.961v19.681zM6.63 20.399L9.33 18l-2.7-2.4v4.799zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08-1.621 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52zM13.17 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841 2.64-1.801 3.9z"/></svg>                       
                 </div>
             </div>
 
-            <div className='opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
+            <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 shadow-cyan-500/50'>
                 <Image src="/tufcat.jpg" height={533} width={533} alt="nifty" objectcover="true" />
                 <h4 className='text-center text-xl font-thin text-cyan-500'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
