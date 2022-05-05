@@ -4,7 +4,16 @@ import Image from 'next/image'
 function Projects() {
   return (
     <div className='container mt-12 mx-auto'>
-        <h2 className='font-thin text-center text-3xl text-cyan-500 mb-7'>Projects <span className='text-orange-500 font-serif'>#</span></h2>
+        <div className='flex justify-center'>
+            <h2 className='font-thin text-center text-3xl text-cyan-500 mb-7'>Projects</h2>
+            <span className='ml-2 animate-bounce text-purple-500 font-serif text-center'>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+            </svg>
+            </span>
+            
+        </div>
+        
         <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5'>
             <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-md shadow-md hover:shadow-lg hover:shadow-purple-500/50 text-cyan-500 hover:text-purple-500 shadow-cyan-500/50 mx-5'>
                 <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
@@ -89,7 +98,7 @@ function Projects() {
 
             <div className='cursor-pointer opacity-75 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-md shadow-md hover:shadow-lg hover:shadow-purple-500/50 text-cyan-500 hover:text-purple-500  shadow-cyan-500/50 mx-5'>
                 <Image src="/tufcat.jpg" height={533} width={533} alt="nifty" objectcover="true" />
-                <h3 className='text-center text-2xl uppercase font-light px-6'>Simple Book Display Service</h3>
+                <h3 className='text-center text-2xl uppercase font-light px-6'>Simple Book Availability Display Service</h3>
                 <h4 className='text-center text-base font-semibold mt-5'>tufcat</h4>
                 <h4 className='text-center text-xl font-thin'>Technologies used: </h4>
                 <div className='mt-3 flex justify-center'>
