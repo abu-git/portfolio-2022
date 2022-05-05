@@ -66,13 +66,13 @@ function Navbar() {
                     </Link>
                         
                     <Link to='projects' spy={true} smooth={true} duration={500} delay={500}>
-                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' >Projects</li>
+                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Projects</li>
                     </Link>
                     <Link to='services' spy={true} smooth={true} duration={500} delay={500}>
-                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' >Services</li>
+                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Services</li>
                     </Link>
                     <Link to='contact' spy={true} smooth={true} duration={500} delay={500}>
-                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' >Contact</li>   
+                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Contact</li>   
                     </Link>
                           
                 </ul>}
