@@ -39,7 +39,7 @@ function Navbar() {
                         <Link to='services' spy={true} smooth={true} offset={-20} duration={500} delay={500}>
                             <li className='font-light text-lg hover:text-purple-400 cursor-pointer'>Services</li>
                         </Link>
-                        <Link to='contact' spy={true} smooth={true} duration={500} delay={500}>
+                        <Link to='contact' spy={true} smooth={true} offset={-20} duration={500} delay={500}>
                             <li className='font-light text-lg hover:text-purple-400 cursor-pointer'>Contact</li>
                         </Link>
                     </ul>
@@ -71,7 +71,7 @@ function Navbar() {
                     <Link to='services' spy={true} smooth={true} duration={500} delay={500}>
                         <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Services</li>
                     </Link>
-                    <Link to='contact' spy={true} smooth={true} duration={500} delay={500}>
+                    <Link to='contact' spy={true} smooth={true} offset={-20} duration={500} delay={500}>
                         <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Contact</li>   
                     </Link>
                           
