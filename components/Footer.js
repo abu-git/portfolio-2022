@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='bg-black container mt-28 mx-auto pb-10'>
+    <div className='bg-slate-900 container mt-28 mx-auto pb-10'>
         <footer className='mx-5 grid grid-cols-1 md:grid-cols-2'>
             <div className='flex justify-center mb-5'>
                 <span className='text-2xl text-cyan-400'>©</span><h3 className='text-center text-lg font-light text-cyan-400'>2022 Design by Samuel Abu.</h3>

@@ -2,7 +2,7 @@
 
 function LandingHeader() {
   return (
-    <div className='bg-black container mx-auto mt-16'>
+    <div className='bg-slate-900 container mx-auto mt-16'>
         <div name="home"></div>
         <header className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-16 mx-5'>
             <div className='flex justify-center'>

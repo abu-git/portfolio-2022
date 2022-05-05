@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Services() {
   return (
-    <div className=' bg-black container sm:mt-16 mt-28 mx-auto'>
+    <div className=' bg-slate-900 container sm:mt-16 mt-28 mx-auto'>
         <div className='flex justify-center mb-10'>
             <h2 className='font-thin text-center text-4xl text-cyan-500 mb-7'>Services</h2>
             <span className='ml-2 animate-bounce text-purple-500 font-serif text-center'>

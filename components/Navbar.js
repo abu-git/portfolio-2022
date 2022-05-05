@@ -22,8 +22,8 @@ function Navbar() {
     },[mobileMenu])
 
     return (
-        <div className='bg-black container'>
-            <div className='font-body py-4 px-8 rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 bg-black shadow-cyan-500/50 fixed top-0 z-10 w-full'>
+        <div className='bg-slate-900 container'>
+            <div className='font-body py-4 px-8 rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 bg-slate-900 shadow-cyan-500/50 fixed top-0 z-10 w-full'>
                 <nav className='flex justify-between text-cyan-600 container mx-auto'>
                     <div className='ripple-nav'>
                         <img className="object-cover w-8 h-8 rounded-full" src="/sam.jpg" alt="Profile image"/>
@@ -66,13 +66,13 @@ function Navbar() {
                     </Link>
                         
                     <Link to='projects' spy={true} smooth={true} duration={500} delay={500}>
-                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Projects</li>
+                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' >Projects</li>
                     </Link>
                     <Link to='services' spy={true} smooth={true} duration={500} delay={500}>
-                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Services</li>
+                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' >Services</li>
                     </Link>
                     <Link to='contact' spy={true} smooth={true} duration={500} delay={500}>
-                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' onClick={displayMenu}>Contact</li>   
+                        <li className='py-1 cursor-pointer text-cyan-500 hover:text-purple-500' >Contact</li>   
                     </Link>
                           
                 </ul>}
