@@ -20,7 +20,7 @@ function Services() {
                             Develop <span className='text-lime-200'>web applications</span> for small businesses.
                         </li>
                         <li className='font-normal text-2xl py-3 mx-7'>
-                            Provide <span className='text-yellow-300'>maintenance services</span> for deployed web applications.
+                            Provide <span className='text-cyan-100'>maintenance services</span> for deployed web applications.
                         </li>
                         <li className='font-normal text-2xl py-3 mx-7'>
                             <span className='text-indigo-300'>Create schema and deploy database</span> for business solutions.

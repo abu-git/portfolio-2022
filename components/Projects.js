@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Projects() {
   return (
@@ -15,7 +16,8 @@ function Projects() {
         </div>
         
         <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5'>
-            <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
+            {/*<a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">*/}
+            <Link href="/projects/tunesketch">
                 <div className='cursor-pointer opacity-90 lg:opacity-80 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-md shadow-md hover:shadow-lg hover:shadow-purple-500/50 text-cyan-500 hover:text-purple-500 shadow-cyan-500/50 mx-5'>
                     <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
                     <h3 className='text-center text-2xl uppercase font-light px-6'>Blog/Content Delivery Application</h3>
@@ -36,10 +38,12 @@ function Projects() {
                         <svg className='w-7 h-7 fill-slate-500' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vercel</title><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>
                     </div>
                 </div>
-            </a>
+            </Link>
+            {/*</a>*/}
+
             
 
-            <a target="_blank" href="https://iammhp-app.herokuapp.com/" rel="noreferrer">
+            <a target="_blank" href="https://iammhp.com/" rel="noreferrer">
                 <div className='cursor-pointer opacity-90 hover:opacity-100 mb-5 pb-5 overflow-hidden rounded-md shadow-md hover:shadow-lg hover:shadow-purple-500/50 text-cyan-500 hover:text-purple-500 shadow-cyan-500/50 mx-5'> 
                     <Image src="/mhp.jpg" height={533} width={533} alt="iammhp" objectcover="true" />
                     <h3 className='text-center text-2xl uppercase font-light px-6'>Multi-Page Musician Web Application</h3>
