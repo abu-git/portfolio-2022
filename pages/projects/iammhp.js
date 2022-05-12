@@ -32,7 +32,7 @@ function Tunesketch() {
 
                     <div className='m-9'>
                         <main>
-                            <h4 className='text-xl md:text-2xl font-bold text-center sm:mt-10 md:mt-7 lg:mt-20 mx-2 lg:mx-5'>TuneSketch is a Music Blog for African Creatives</h4>
+                            <h4 className='text-xl md:text-2xl font-bold text-center sm:mt-10 md:mt-7 lg:mt-20 mx-2 lg:mx-5'>A Multi-Page Web Application</h4>
 
                             <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>iamMHP was made using Node.js, Express, Express-Handlebars and MongoDB. I made use of multiple routes to display different information and a MongoDB database to store subscriber emails.</p>
 
@@ -40,7 +40,7 @@ function Tunesketch() {
 
                             <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>
                                 View Application: 
-                                <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
+                                <a target="_blank" href="https://www.iammhp.com" rel="noreferrer">
                                     <span className='text-yellow-300 hover:text-purple-500 ml-1 cursor-pointer'>iamMHP</span>
                                 </a>
                             </p>
@@ -66,9 +66,9 @@ function Tunesketch() {
 
                     <div className='flex justify-center'>
                         <div className='w-fit h-fit mt-2 md:mt-16 mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-cyan-500/50 hover:shadow-purple-500/50 mx-5'>
-                            <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
-                            <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
-                            <h3 className='text-center mt-2 mb-2 text-2xl uppercase font-light px-6'>Blog/Content Delivery Application</h3>
+                            <a target="_blank" href="https://iammhp.com/" rel="noreferrer">
+                            <Image src="/mhp.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
+                            <h3 className='text-center mt-2 mb-2 text-2xl uppercase font-light px-6'>Multi-Page Musician Web Application</h3>
                             </a>
                         </div>
                     </div>
