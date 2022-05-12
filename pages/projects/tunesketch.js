@@ -29,14 +29,24 @@ function Tunesketch() {
 
             <section className='mt-10 mx-5'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-                    
-                        <div className='w-fit mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-purple-500/50 mx-5'>
-                            <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
-                            <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
-                            <h3 className='text-center text-2xl uppercase font-light px-6'>Blog/Content Delivery Application</h3>
-                            <h4 className='text-center text-base font-semibold mt-5'>tunesketch</h4>
-                            <h4 className='text-center text-xl font-thin'>Technologies used: </h4>
-                            <div className='mt-3 flex justify-center'>
+
+                    <div className='m-9'>
+                        <main>
+                            <h4 className='text-xl font-bold text-center sm:mt-10 md:mt-7 lg:mt-20 sm:mx-2 lg:mx-5'>TuneSketch is a Music Blog for African Creatives</h4>
+
+                            <p className='mt-7 lg:mt-10 font-light text-md lg:text-lg text-center sm:mx-2 lg:mx-5'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku using the git via a git repository with command <span className='text-purple-200'>git push heroku main</span>.</p>
+
+                            <p className='mt-7 lg:mt-10 font-light text-md lg:text-lg text-center sm:mx-2 lg:mx-5'>I must also note that, Cloudinary was used in order to generate the meta card images when the links get shared on social media.</p>
+
+                            <p className='mt-7 lg:mt-10 font-light text-md lg:text-lg text-center sm:mx-2 lg:mx-5'>
+                                View Application: 
+                                <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
+                                    <span className='text-yellow-300 hover:text-purple-500 ml-1 cursor-pointer'>tunesketch</span>
+                                </a>
+                            </p>
+
+                            <h4 className='mt-5 mb-4 text-center text-lg lg:text-xl font-thin'>Technologies used: </h4>
+                            <div className='mt-3 sm:mb-10 md:mb-7 lg:mb-10 flex justify-center'>
             
                                 <svg className='w-7 h-7 mr-2 fill-white' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Next.js</title><path d="M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z"/></svg>
                         
@@ -50,19 +60,20 @@ function Tunesketch() {
                         
                                 <svg className='w-7 h-7 fill-slate-500' role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vercel</title><path d="M24 22.525H0l12-21.05 12 21.05z"/></svg>
                             </div>
-                            </a>
-                        </div>
-                    
-
-                    <div className='border-2 border-purple-500 rounded-lg m-9'>
-                        <main>
-                            <h4 className='text-xl text-center mt-3'>TuneSketch is a Music Blog for African Creatives</h4>
-
-                            <p className='mt-5 text-lg text-center mx-2'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku.</p>
-
-                            <p className='text-lg text-center mx-2'>I must also note that, Cloudinary was used in order to generate the meta card images when the links get shared on social media.</p>
                         </main>
                     </div>
+
+                    <div className='flex justify-center'>
+                        <div className='w-fit h-fit mt-16 mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-cyan-500/50 hover:shadow-purple-500/50 mx-5'>
+                            <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
+                            <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
+                            <h3 className='text-center mt-2 mb-2 text-2xl uppercase font-light px-6'>Blog/Content Delivery Application</h3>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+            
                 </div>
             </section>
         </div>
