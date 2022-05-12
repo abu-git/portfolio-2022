@@ -57,6 +57,10 @@ function Tunesketch() {
                     <div className='border-2 border-purple-500 rounded-lg m-9'>
                         <main>
                             <h4 className='text-xl text-center mt-3'>TuneSketch is a Music Blog for African Creatives</h4>
+
+                            <p className='mt-5 text-lg text-center mx-2'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku.</p>
+
+                            <p className='text-lg text-center mx-2'>I must also note that, Cloudinary was used in order to generate the meta card images when the links get shared on social media.</p>
                         </main>
                     </div>
                 </div>
