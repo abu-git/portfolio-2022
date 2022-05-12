@@ -15,30 +15,30 @@ function Tunesketch() {
 
         <div className='bg-slate-900 text-cyan-500 container mx-auto'>
             <header className='mx-5'>
-                <div className='flex hover:text-purple-500 w-fit cursor-pointer'>
-                    <span className='mt-7 text-left'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
-                        </svg>
-                    </span>
-                    <Link href="/">
-                        <h3 className='mt-7 text-md  ml-2'>Back to home</h3>
-                    </Link>
-                </div>
+                <Link href="/">
+                    <div className='flex hover:text-purple-500 w-fit cursor-pointer'>
+                        <span className='mt-10 text-left'>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                            </svg>
+                        </span>
+                        <h3 className='mt-10 text-md  ml-2'>Back to home</h3>
+                    </div>
+                </Link>
             </header>
 
-            <section className='sm:mt-10 md:mt-20 lg:mt-14 sm:mb-7 md:mb-60 lg:mb-7 mx-5'>
+            <section className='sm:mt-10 md:mt-20 lg:mt-14 sm:mb-7 md:mb-60 lg:mb-7 mx-1 lg:mx-5'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
 
                     <div className='m-9'>
                         <main>
-                            <h4 className='text-xl md:text-2xl font-bold text-center sm:mt-10 md:mt-7 lg:mt-20 sm:mx-2 lg:mx-5'>TuneSketch is a Music Blog for African Creatives</h4>
+                            <h4 className='text-xl md:text-2xl font-bold text-center sm:mt-10 md:mt-7 lg:mt-20 mx-2 lg:mx-5'>TuneSketch is a Music Blog for African Creatives</h4>
 
-                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center sm:mx-2 lg:mx-5'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku using git with the command <span className='text-slate-400'>git push heroku main</span>.</p>
+                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku using git with the command <span className='text-slate-400'>git push heroku main</span>.</p>
 
-                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center sm:mx-2 lg:mx-5'>I must also note that, Cloudinary was used in order to generate the meta card images when the links get shared on social media.</p>
+                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>I must also note that, Cloudinary was used in order to generate the meta card images when the links get shared on social media.</p>
 
-                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center sm:mx-2 lg:mx-5'>
+                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>
                                 View Application: 
                                 <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
                                     <span className='text-yellow-300 hover:text-purple-500 ml-1 cursor-pointer'>tunesketch</span>
@@ -75,7 +75,7 @@ function Tunesketch() {
                     </div>
 
                     <div className='flex justify-center'>
-                        <div className='w-fit h-fit mt-16 mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-cyan-500/50 hover:shadow-purple-500/50 mx-5'>
+                        <div className='w-fit h-fit mt-2 md:mt-16 mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-cyan-500/50 hover:shadow-purple-500/50 mx-5'>
                             <a target="_blank" href="https://www.tunesketch.com" rel="noreferrer">
                             <Image src="/tunesketch.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
                             <h3 className='text-center mt-2 mb-2 text-2xl uppercase font-light px-6'>Blog/Content Delivery Application</h3>
