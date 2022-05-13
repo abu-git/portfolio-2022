@@ -10,7 +10,7 @@ function Tunesketch() {
   return (
     <div>
         <Head>
-            <title>Samuel Abu | Portfolio | iamMHP</title>
+            <title>Samuel Abu | Portfolio | BigBoyEllis</title>
         </Head>
 
         <div className='bg-slate-900 text-cyan-500 container mx-auto'>
