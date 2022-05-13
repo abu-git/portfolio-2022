@@ -34,7 +34,7 @@ function Tunesketch() {
                         <main>
                             <h4 className='text-xl md:text-2xl font-bold text-center sm:mt-10 md:mt-7 lg:mt-20 mx-2 lg:mx-5'>TuneSketch is a Music Blog for African Creatives</h4>
 
-                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku using git with the command <span className='text-slate-400'>git push heroku main</span>.</p>
+                            <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>The web application was made using TailwindCSS and Next.js for the frontend and a Strapi backend connected to a PostgreSQL database. The frontend was deployed on Vercel and the Strapi backend was deployed on Heroku.</p>
 
                             <p className='mt-7 lg:mt-10 font-light text-lg lg:text-xl text-center mx-2 lg:mx-5'>I must also note that, Cloudinary was used in order to generate the meta card images when the links get shared on social media.</p>
 
