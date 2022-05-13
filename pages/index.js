@@ -18,7 +18,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
           <meta property="og:url" content="https://sam-portfolio-alpha.vercel.app/" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Samuel Abu | This is a concise catalog of my deployed projects." key="ogabouttitle" />
+          <meta property="og:title" content="Samuel Abu | This is a brief catalog of my deployed projects." key="ogabouttitle" />
           <meta property="og:description" content="I am a Full Stack Web Developer. Feel free to contact me for my services." key="ogaboutdesc" />
           <meta property="og:image" content="https://res.cloudinary.com/dbqn6vejg/image/upload/v1652408526/meta_j5xbkw.jpg" key="ogaboutimg" />
 
@@ -27,7 +27,7 @@ export default function Home() {
           <meta name="twitter:creator" content="@reachmhp" />
           <meta property="twitter:domain" content="tunesketch.com"/>
           <meta property="twitter:url" content="https://sam-portfolio-alpha.vercel.app/"/>
-          <meta name="twitter:title" content="Samuel Abu | This is a concise catalog of my deployed projects." key="twabouttitle" />
+          <meta name="twitter:title" content="Samuel Abu | A brief catalog of projects." key="twabouttitle" />
           <meta name="twitter:description" content="I am a Full Stack Web Developer. Feel free to contact me for my services" key="twaboutdesc" />
           <meta name="twitter:image" content="https://res.cloudinary.com/dbqn6vejg/image/upload/v1652409502/meta_nwnlmu.jpg" key="twaboutimg" />
         </Head>
