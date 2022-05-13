@@ -20,7 +20,7 @@ export default function Home() {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Samuel Abu | This is a brief catalog of my deployed projects." key="ogabouttitle" />
           <meta property="og:description" content="I am a Full Stack Web Developer. Feel free to contact me for my services." key="ogaboutdesc" />
-          <meta property="og:image" content="https://res.cloudinary.com/dbqn6vejg/image/upload/v1652408526/meta_j5xbkw.jpg" key="ogaboutimg" />
+          <meta property="og:image" content="https://res.cloudinary.com/dbqn6vejg/image/upload/v1652409502/meta_nwnlmu.jpg" key="ogaboutimg" />
 
           <meta name="twitter:card" content="summary" key="twaboutcard"/>
           <meta name="twitter:creator" content="@reachmhp"/>
