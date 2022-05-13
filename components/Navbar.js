@@ -25,7 +25,7 @@ function Navbar() {
         <div className='bg-slate-900 container'>
             <div className='font-body py-4 px-8 rounded-sm shadow-md hover:shadow-lg hover:shadow-purple-500/50 bg-slate-900 shadow-cyan-500/50 fixed top-0 z-10 w-full'>
                 <nav className='flex justify-between text-cyan-600 container mx-auto'>
-                    <div className='ripple-nav'>
+                    <div className='ripple-nav cursor-pointer'>
                         <img className="object-cover w-8 h-8 rounded-full" src="/sam.jpg" alt="Profile image"/>
                     </div>
 
