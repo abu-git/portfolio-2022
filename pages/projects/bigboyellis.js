@@ -64,7 +64,7 @@ function Tunesketch() {
                     </div>
 
                     <div className='flex justify-center'>
-                        <div className='w-fit h-fit mt-2 md:mt-16 mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-cyan-500/50 hover:shadow-purple-500/50 mx-5'>
+                        <div className='w-fit h-fit mt-2 md:mt-16 mb-5 pb-5 overflow-hidden rounded-md shadow-md text-cyan-500 shadow-cyan-500/50 hover:shadow-purple-500/50 hover:text-purple-500 mx-5'>
                             <a target="_blank" href="https://www.bigboyellis.com/" rel="noreferrer">
                             <Image src="/bbe.jpg" height={533} width={533} alt="tunesketch" objectcover="true" />
                             <h3 className='text-center mt-2 mb-2 text-2xl uppercase font-light px-6'>Single-Page Musician Web Application</h3>
