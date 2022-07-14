@@ -1,9 +1,7 @@
 import React from 'react'
 
-
-
 function Contact() {
-    const mailgun = require('mailgun-js')({apiKey: process.env.NEXT_PUBLIC_API_KEY, domain: process.env.NEXT_PUBLIC_DOMAIN_NAME})
+    //const mailgun = require('mailgun-js')({apiKey: process.env.NEXT_PUBLIC_API_KEY, domain: process.env.NEXT_PUBLIC_DOMAIN_NAME})
     //console.log("" + process.env.NEXT_PUBLIC_API_KEY)
     //console.log("" + process.env.NEXT_PUBLIC_DOMAIN_NAME)
     return (
