@@ -1,13 +1,9 @@
 import React from 'react'
 
-const formData = require('form-data')
-const Mailgun = require('mailgun.js')
 
-const mailgun = new Mailgun(formData);
-const client = mailgun.client({username: 'api', key: process.env.NEXT_PUBLIC_API_KEY});
 
 function Contact() {
-
+    const mailgun = require('mailgun-js')({apiKey: process.env.NEXT_PUBLIC_API_KEY, domain: process.env.NEXT_PUBLIC_DOMAIN_NAME})
     //console.log("" + process.env.NEXT_PUBLIC_API_KEY)
     //console.log("" + process.env.NEXT_PUBLIC_DOMAIN_NAME)
     return (
